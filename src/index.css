@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Noto+Sans+Sinhala:wght@400;700&family=Noto+Sans+Tamil:wght@400;700&family=Inter:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+.sinhala-font {
+  font-family: 'Noto Sans Sinhala', 'Abhaya Libre', sans-serif;
+}
+
+.tamil-font {
+  font-family: 'Noto Sans Tamil', sans-serif;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #4a0404;
+}
+
+#root {
+  width: 100%;
+}
